@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#quiz").submit(function(event) {
+  $("#quiz").submit(function(event) {
     var company = $("input:radio[name=company]:checked").val();
     var developer = $("input:radio[name=developer]:checked").val();
     var difficulty = $("input:radio[name=difficult]:checked").val();
